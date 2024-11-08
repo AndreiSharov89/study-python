@@ -14,13 +14,15 @@
 #### Инструкция по установке
 > cd <каталог проекта>
 > 
-> python3 -m venv venv source /.venv/Scripts/activate
+> python -v venv .venv
+>
+> .venv\Scripts\Activate
 > 
-> pip install psycopg2
+> pip install -r requirements.txt
 > 
-> python3 db.py 
+> python db.py 
 > 
-> python3 console-ui.py
+> python console-ui.py
 
 В файле requirements.txt перечислены необходимые библиотеки (psycopg2).
 Активируем виртуальное окружение, добавляем библиотеку.
